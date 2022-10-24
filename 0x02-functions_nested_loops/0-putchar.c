@@ -6,7 +6,7 @@
  *Return: Always 0 (success)
  *
  */
-int _putchar(char c)
+int _putchar(char)
 {
 	_putchar('_');
 	_putchar('P');
@@ -17,5 +17,6 @@ int _putchar(char c)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
