@@ -7,9 +7,9 @@
 */
 void print_alphabet_x10(void)
 {
-	int c = 0;
+	int cl = 0;
 
-	while (c < 10)
+	for (cl = 0; cl < 10; cl++)
 	{
 		char al;
 
@@ -18,7 +18,6 @@ void print_alphabet_x10(void)
 			_putchar(al);
 		}
 		_putchar('\n');
-		c++
 	}
 	return (0);
 }
