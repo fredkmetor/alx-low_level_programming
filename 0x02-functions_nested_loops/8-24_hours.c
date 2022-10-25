@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * *main- Print every minute of jack Bauer,
- * *starting from 00:00 to 23:59
- * *Return: Alyaws 0 (success)
- */
+* jack_bauer - Print every minute of jack Bauer,
+* starting from 00:00 to 23:59
+*
+* Return: Alyaws 0 (success)
+*/
 void jack_bauer(void)
 {
 	int hour, minute;

@@ -1,17 +1,12 @@
 #include "main.h"
 
 /**
- *main: (-Prints exactly _putchar)
- *@parameterc: (chaacter to be printed is represented by the variable c)
+ * _putchar - Prints exactly _putchar
+ * @c: chaacter to be printed is represented by the variable c
+ * Return: Always 0 (success)
  *
- *Description: int putchar- Prints exactly _Putchar
- *on standard output with a newline
- *section header: _putchar(char c)
- *Return: Always 0 (success)
- *
- **/
-
-int main(void)
+ */
+int _putchar(char c)
 {
 
 	_putchar('_');
