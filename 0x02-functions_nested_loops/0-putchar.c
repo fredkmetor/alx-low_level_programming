@@ -1,13 +1,19 @@
 #include "main.h"
-/*
- *main-Entry point
- *int putchar- Prints exactly _Putchar
+
+/**
+ *main: (-Prints exactly _putchar)
+ *@parameterc: (chaacter to be printed is represented by the variable c)
+ *
+ *Description: int putchar- Prints exactly _Putchar
  *on standard output with a newline
+ *section header: _putchar(char c)
  *Return: Always 0 (success)
  *
- */
-int _putchar(char)
+ **/
+
+int main(void)
 {
+
 	_putchar('_');
 	_putchar('P');
 	_putchar('u');

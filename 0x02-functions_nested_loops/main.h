@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_H
+#define _MAIN_H
 
 void print_alphabet(void);
 void print_alphabet_x10(void);
@@ -14,4 +14,4 @@ int add(int, int);
 void print_to_98(int n);
 int _putchar(char c); 
 
-#endif
+#endif/*_MAIN_H*/
