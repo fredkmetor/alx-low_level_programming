@@ -32,11 +32,11 @@ void times_table(void)
 					{
 						_putchar(',');
 						 _putchar(' ');
-						_putcahar((ans / 10) + '0');
+						_putchar((ans / 10) + '0');
 						_putchar((ans % 10) + '0');
 					}
 		}
 		_putchar('\n');
 	}
-	return (0);
+
 }
