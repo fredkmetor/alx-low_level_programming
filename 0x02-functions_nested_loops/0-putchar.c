@@ -6,7 +6,7 @@
  * Return: Always 0 (success)
  *
  */
-void _putchar(char)
+void _putchar(void)
 {
 
 	_putchar('_');

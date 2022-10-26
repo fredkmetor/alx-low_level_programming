@@ -8,31 +8,31 @@
 */
 void times_table(void)
 {
-	int n, m, ans;
+	int r, c, ans;/*variables for row, colon, and value respectively*/
 
-	for (n = 0; n < 10; n++)
+	for (r = 0; r < 10; r++)/*calculate the number of rows*/
 	{
 		_putchar('0');
 
-		for (m = 0; m < 10; m++)
+		for (c = 0; c < 10; c++)
 		{
-			ans = m * n;
-			if (m == 0)
+			ans = c * r;
+			if (c == 0)
 			{
-				_putchar(ans + '0')
+				_putchar(ans + '0');
 			}
-				else if (m != 0 && ans < 10)
+				else if (c != 0 && ans < 10)
 				{
-					_putchar(',')
+					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
-					_putchar(ans + '0')
+					_putchar(ans + '0');
 				}
 					else if (ans >= 10)
 					{
 						_putchar(',');
 						 _putchar(' ');
-						_putcahr((ans / 10) + '0');
+						_putcahar((ans / 10) + '0');
 						_putchar((ans % 10) + '0');
 					}
 		}
