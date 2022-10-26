@@ -2,11 +2,11 @@
 
 /**
  * _putchar - Prints exactly _putchar
- * @char: chaacter to be printed is represented by the variable c
+ * @int: chaacter to be printed is represented by the variable c
  * Return: Always 0 (success)
  *
  */
-void _putchar(void)
+int _putchar(int)
 {
 
 	_putchar('_');
