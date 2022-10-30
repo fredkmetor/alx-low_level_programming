@@ -8,7 +8,8 @@
  */
 int _putchar(int c)
 {
-	while (c)
+	c = 0;
+	while (c == 1)
 	{
 	_putchar('_');
 	_putchar('p');
@@ -20,7 +21,7 @@ int _putchar(int c)
 	_putchar('r');
 	_putchar('\n');
 
-	break;
+	c++;
 	}
 	return (0);
 }
