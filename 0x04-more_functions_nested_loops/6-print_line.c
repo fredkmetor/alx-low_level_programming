@@ -12,8 +12,14 @@ void print_line(int n)
 	c = 0;
 	while (c < n)
 	{
-		_putchar('_');
-
+		if (c <= 0)
+		{
+			_putchar('\n');
+		}
+		else
+		{
+			_putchar('_');
+		}
 		c++;
 	}
 	_putchar('\n');
