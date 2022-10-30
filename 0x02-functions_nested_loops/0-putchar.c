@@ -2,13 +2,14 @@
 
 /**
  * _putchar - Prints exactly _putchar
- * @int: chaacter to be printed is represented by the variable c
+ * @c: chaacter to be printed is represented by the variable c
  * Return: Always 0 (success)
  *
  */
-int _putchar(int)
+int _putchar(int c)
 {
-
+	while (c)
+	{
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -19,5 +20,7 @@ int _putchar(int)
 	_putchar('r');
 	_putchar('\n');
 
+	break;
+	}
 	return (0);
 }
